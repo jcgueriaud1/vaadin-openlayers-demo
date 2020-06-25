@@ -13,7 +13,7 @@ import com.vaadin.flow.function.SerializableConsumer;
 
 @Tag("openlayers")
 @NpmPackage(value = "ol", version = "6.1.1")
-@CssImport("./styles/ol.css")
+@CssImport("ol/ol.css")
 //@JavaScript("https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/build/ol.js")
 //@StyleSheet("https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/css/ol.css")
 @JsModule("./src/openlayers-connector.js")
